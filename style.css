@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    background: #ffad22;
+}
+header > h1{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.slogan{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.list-country{
+    list-style-type: none;
+}
+.list-country li{
+    float: left;
+    width: 30%;
+    margin: 20px;
+}
+.name-country, .more-info, .info{
+    margin-top: 15px;
+}
+.list-country > li > img{
+    width:200px;
+}
+
+@media screen and (max-width: 768px) {
+    .list-country li{
+    display: block;
+    width: inherit;
+    }
+.list-country > li > img{
+    width: 100%;        
+}
+}
